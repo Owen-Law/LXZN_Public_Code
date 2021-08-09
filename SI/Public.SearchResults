@@ -1,0 +1,4 @@
+---- USR_SendArray Matches (3 in 2 files) ----
+USR_TCP232.c (d:\workfile_lxzn\public_station\public_code\code\source):        USR_SendArray( src, size );
+USR_TCP232.c (d:\workfile_lxzn\public_station\public_code\code\source):	USR_SendArray( src, size );
+USR_TCP232.h (d:\workfile_lxzn\public_station\public_code\code\source):#define USR_SendArray   USART1_Send_Array

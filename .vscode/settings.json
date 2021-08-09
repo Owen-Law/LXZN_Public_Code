@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "stm32f10x_conf.h": "c"
+    }
+}
