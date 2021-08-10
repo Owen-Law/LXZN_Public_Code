@@ -120,7 +120,6 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name></Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -269,6 +268,11 @@
           <count>23</count>
           <WinNumber>1</WinNumber>
           <ItemText>motor</ItemText>
+        </Ww>
+        <Ww>
+          <count>24</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>gb_var.ADC_Value</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>

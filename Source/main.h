@@ -68,8 +68,12 @@
 #define FLASH_ADDR		0x08009000 //编号地址该地址不能小于0x08004000具体原因未知
 #define INITLEN			64
 
+#if 0
 #define HARMFUL_OVER_LINE	1600//2000
-#define OTHER_OVER_LINE		800//1000
+#else
+#define HARMFUL_OVER_LINE	960//2000
+#endif
+#define OTHER_OVER_LINE		700//1000
 
 
 #define DEV_TYPE	0x0A
