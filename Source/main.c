@@ -417,6 +417,9 @@ void ADC_Configuration(void)
 
 	ADC_DMACmd(ADC1,ENABLE);
 	ADC_Cmd(ADC1,ENABLE);
+
+	for(uint8_t i=0;i<100;i++);///增加延时
+	
 	ADC_ResetCalibration(ADC1);//复位校准寄存器 
 	while(ADC_GetResetCalibrationStatus(ADC1));//等待校准寄存器复位完成 	
 	ADC_StartCalibration(ADC1);//ADC校准	
